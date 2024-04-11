@@ -1,0 +1,60 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invoice Data Extraction</title>
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+
+<body>
+  <header>
+    <div class="header-content">
+      <img src= " {% static 'logo.png' %}" alt="Company Logo" class="logo">
+      <h1>Invoice Data Extraction</h1>
+      <p>Upload your invoice image below and extract data with ease.</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <form id="invoiceForm" class="invoice-form">
+      <label for="imageUpload" class="form-label">Upload Invoice Image:</label>
+      <div class="form-input">
+        <input type="file" id="imageUpload" accept="image/*" placeholder="Choose a file">
+        <button type="submit" class="btn">Extract Data</button>
+      </div>
+    </form>
+
+    <div id="result" class="result-section">
+      <h2>Extracted Invoice Data</h2>
+      <div class="result-content"></div>
+    </div>
+  </div>
+
+  <section class="cta">
+    <h2>Get Started Now!</h2>
+    <p>Sign up or sign in to enjoy all the features of our service.</p>
+    <div class="cta-buttons">
+      <a href="#" class="btn">Sign Up</a>
+      <a href="#" class="btn">Sign In</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2024 Invoice Data Extraction. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Contact Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="{% static 'scripts.js' %}"></script>
+</body>
+
+</html>

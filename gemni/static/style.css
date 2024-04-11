@@ -1,0 +1,147 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #007bff;
+    padding: 40px 0;
+  }
+  
+  .header-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  /* Form and result styles */
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  .invoice-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .form-label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .form-input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  #imageUpload {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .result-section {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+  }
+  
+  .result-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .result-content {
+    font-size: 16px;
+  }
+  
+  /* CTA section styles */
+  .cta {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .cta h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .cta p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-buttons .btn {
+    margin: 0 10px;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .footer-links a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .footer-links a:hover {
+    color: #007bff;
+  }
+  
